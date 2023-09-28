@@ -1,17 +1,15 @@
-export class Category {
-    link: string;
-    name: string;
-    textpages:  any[];
-    routes: any[];
-    pois: any[];
- 
-    constructor(link: string , name: string ) {
-     this.link = link;
-     this.name = name;
-     this.textpages = [];
-     this.routes = [];
-     this.pois  = [];
-   }
- 
+export interface Category {
+	id?: number;
+	link?: string;
+	bundle?: string;
+	customId?: string;
+	space?: string;
+	name?: string;
+	sorting?: number;
+	open?: boolean;
+	visible?: boolean;
+	geocontent? : Array<string>;
+  textcontent? : Array<string>;
+
  
  }
