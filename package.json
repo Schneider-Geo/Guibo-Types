@@ -1,6 +1,6 @@
 {
   "name": "guibo-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript data structures for the GUIBO platform interfaces",
   "main": "./dist/index.js",
    "scripts": {
