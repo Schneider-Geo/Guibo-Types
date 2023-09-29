@@ -1,6 +1,6 @@
 export * from './content/bounds';
 export * from './content/bundle_metadata';
-export * from './content/bundle_metadatainfo';
+export * from './content/bundle_metainfo';
 export * from './content/category';
 export * from './content/context';
 export * from './content/elevation';
