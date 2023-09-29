@@ -11,6 +11,7 @@ jobs:
         - uses: actions/setup-node@v3
           with:
             node-version: "18"
+        - run: npx -p typescript tsc src/**/*.ts --declaration --allowJs --emitDeclarationOnly --outDir types
         - run: npm run build
         - uses: JS-DevTools/npm-publish@v2
           with:
