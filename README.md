@@ -1,6 +1,6 @@
 # GUIBO TypeScript Data Structures
 
-## A collection of TypeScript interfaces to work withe the GUIBO data structures
+## A collection of TypeScript interfaces to work with the GUIBO data structures
 
 ### Installing
 
