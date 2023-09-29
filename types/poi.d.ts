@@ -1,0 +1,33 @@
+import { Icon } from "./icon";
+import { Category } from "./category";
+import { Bounds } from "./bounds";
+import { Context } from "./context";
+import { Tag } from "./tag";
+import { PoiReference } from "./poi_reference";
+export interface Poi {
+    id?: number;
+    externalid?: string;
+    link?: string;
+    bundle?: string;
+    name?: string;
+    remark?: string;
+    sorting?: number;
+    description?: string;
+    centerlat?: number;
+    centerlng?: number;
+    zoom?: number;
+    audioFile?: string;
+    videoFile?: string;
+    icon?: Icon;
+    category?: Category;
+    space?: string;
+    enabled: boolean;
+    relevant: boolean;
+    activityCategory?: string;
+    bbox?: Bounds;
+    context: Context;
+    images?: Array<string>;
+    tags?: Array<Tag>;
+    references?: Array<PoiReference>;
+    attributes: Record<string, string>;
+}
