@@ -18,3 +18,4 @@ export * from './content/tag';
 export * from './content/text';
 export * from './content/waypoint';
 export * from './content/weblink';
+export * from './content/location';
