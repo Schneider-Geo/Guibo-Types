@@ -5,9 +5,7 @@ export interface Category {
 	customId?: string;
 	space?: string;
 	name?: string;
-	names?: {
-		[lang: string]: string;
-	};
+	names?: Record<string, string>;
 	sorting?: number;
 	open?: boolean;
 	visible?: boolean;
