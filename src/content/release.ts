@@ -15,7 +15,7 @@ export interface Release {
     creation: Date;
     customized: boolean;
     enabled: boolean;
-    operator: AccountBasicinfo;
+    provider: AccountBasicinfo;
     seller: AccountBasicinfo;
 
 }
