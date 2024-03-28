@@ -20,4 +20,7 @@ export * from './content/waypoint';
 export * from './content/weblink';
 export * from './content/groupcount';
 export * from './content/location';
+export * from './content/release';
+export * from './content/account_basicinfo';
+
 
