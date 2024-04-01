@@ -21,6 +21,7 @@ export * from './content/weblink';
 export * from './content/groupcount';
 export * from './content/location';
 export * from './content/release';
+export * from './content/release_download';
 export * from './content/account_basicinfo';
 
 
