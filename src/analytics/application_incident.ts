@@ -9,5 +9,6 @@ export interface  ApplicationIncident {
     message? : string;
     level? : string;
     detail? : LogContextDetail;
+    time: Date;
 
 }
