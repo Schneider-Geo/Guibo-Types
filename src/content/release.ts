@@ -17,6 +17,6 @@ export interface Release {
     enabled: boolean;
     provider: AccountBasicinfo;
     seller: AccountBasicinfo;
-    ur: string;
+    url: string;
 
 }
