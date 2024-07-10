@@ -14,7 +14,7 @@ export interface Release {
     bundleName: string;
     creation: Date;
     customized: boolean;
-    enabled: boolean;
+    disabled: boolean;
     provider: AccountBasicinfo;
     seller: AccountBasicinfo;
     url: string;
