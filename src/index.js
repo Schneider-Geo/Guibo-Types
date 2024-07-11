@@ -25,5 +25,6 @@ export * from './content/release_download';
 export * from './content/account_basicinfo';
 export * from './analytics/application_incident';
 export * from './analytics/log_context_detail';
+export * from './analytics/operation_trace';
 export * from './tenant/tenant_metadata'
 
