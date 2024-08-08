@@ -6,6 +6,7 @@ export interface BundleMetadata {
 	customId?: string;
 	account?: string;
 	name?: string;
+	names?: Record<string, string>;
 	description?: string;
 	image?: string;
 	statusText?: string;
