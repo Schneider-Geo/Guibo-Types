@@ -3,6 +3,8 @@ import {MapTile} from './maptile';
 export interface BundleMetainfoDTO {
 	link?: string;
 	name?: string;
+	names?: Record<string, string>;
+
 	account?: string;
 
 	image?: string;
