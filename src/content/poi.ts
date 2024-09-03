@@ -25,6 +25,7 @@ export interface Poi {
     audioFile?: string;
     videoFile?: string;
     icon: Icon;
+    geoType?: string;
     category?: Category;
     space?: string;
     enabled : boolean ;

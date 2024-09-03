@@ -25,6 +25,7 @@ export interface Route {
     audioFile?: string;
     videoFile?: string;
     icon?: Icon;
+    geoType?: string;
     color?: string;
     category?: Category;
     space?: string;
