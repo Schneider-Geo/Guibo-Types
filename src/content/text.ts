@@ -13,5 +13,5 @@ export interface Text {
 	descriptions?: Record<string, string>;
 	images?: Array<string>;	
 	sorting: number;
-	context: Context;
+	context?: Context;
 }
