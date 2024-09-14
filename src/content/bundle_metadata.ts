@@ -14,6 +14,7 @@ export interface BundleMetadata {
 	bounds?: Bounds;
 	mother?: string;
 	type?: string;
+	archive?: string;
 	map?: string;
 	settings: Record<string, string>;
 }
