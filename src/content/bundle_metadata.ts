@@ -15,6 +15,7 @@ export interface BundleMetadata {
 	mother?: string;
 	type?: string;
 	archive?: string;
+	ownerName?: string;
 	map?: string;
 	settings: Record<string, string>;
 }
