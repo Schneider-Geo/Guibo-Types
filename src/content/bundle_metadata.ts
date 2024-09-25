@@ -18,4 +18,5 @@ export interface BundleMetadata {
 	ownerName?: string;
 	map?: string;
 	settings: Record<string, string>;
+	logo?: string;
 }
