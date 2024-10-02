@@ -20,4 +20,5 @@ export interface BundleMetadata {
 	settings: Record<string, string>;
 	logo?: string;
 	myOwn?: boolean;
+	languages?: string[];
 }
