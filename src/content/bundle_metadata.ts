@@ -14,6 +14,7 @@ export interface BundleMetadata {
 	bounds?: Bounds;
 	mother?: string;
 	type?: string;
+	libraryType?: string;
 	archive?: string;
 	ownerName?: string;
 	map?: string;
