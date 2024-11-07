@@ -7,6 +7,7 @@ export interface TenantMetadata {
 	operatorid?: string;
     defaultLanguage?: string;
     units?: string;
+    accountType?: string;
 	
 	
 
