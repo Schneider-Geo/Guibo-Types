@@ -22,6 +22,8 @@ export * from './content/groupcount';
 export * from './content/location';
 export * from './content/release';
 export * from './content/release_download';
+export * from './content/release_asset';
+export * from './content/release_asset_list';
 export * from './content/account_basicinfo';
 export * from './analytics/application_incident';
 export * from './analytics/log_context_detail';
