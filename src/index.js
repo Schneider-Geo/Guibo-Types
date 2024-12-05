@@ -30,5 +30,6 @@ export * from './analytics/log_context_detail';
 export * from './analytics/operation_trace';
 export * from './tenant/tenant_metadata';
 export * from './tenant/partner_invitation';
+export * from  './tenant/portal_notification';
 export * from './generic/page'
 
