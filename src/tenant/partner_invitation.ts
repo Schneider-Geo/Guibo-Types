@@ -5,6 +5,7 @@ export interface PartnerInvitation {
     invitee: string;
     requester: string;
     approver: string;
+    message: string;
     creationTime: Date;
     approvalTime: Date;
 }
