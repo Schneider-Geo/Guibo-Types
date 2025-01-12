@@ -13,5 +13,8 @@ export interface Text {
 	descriptions?: Record<string, string>;
 	images?: Array<string>;	
 	sorting: number;
+	customId?: string;
+	appEnabled?: boolean;
+	pdfEnabled?: boolean;
 	context?: Context;
 }
