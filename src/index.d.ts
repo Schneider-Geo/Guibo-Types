@@ -23,6 +23,7 @@ export * from './content/release';
 export * from './content/release_download';
 export * from './content/release_asset';
 export * from './content/release_asset_list';
+export * from './content/release_message'
 export * from './content/account_basicinfo';
 export * from './content/validation';
 export * from './analytics/application_incident';
