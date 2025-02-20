@@ -18,5 +18,7 @@ export interface Release {
     provider: AccountBasicinfo;
     seller: AccountBasicinfo;
     url: string;
+    positioning: boolean;
+    navigation: boolean;
 
 }
