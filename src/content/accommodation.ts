@@ -9,5 +9,6 @@ export interface Accommodation {
     lat: number;
     lng: number;
     images: string[];
+    comment?: string;
     stages: AccommodationStageinfo[];
 }
