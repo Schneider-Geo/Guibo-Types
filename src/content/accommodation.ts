@@ -4,8 +4,8 @@ export interface Accommodation {
     link: string;
     name: string;
     names?: Record<string, string>;
-    arrivalDate?: Date;
-    departureDate?: Date;
+    arrival?: Date;
+    departure?: Date;
     lat: number;
     lng: number;
     images: string[];
