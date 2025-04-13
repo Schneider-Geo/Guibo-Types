@@ -20,5 +20,8 @@ export interface Release {
     url: string;
     positioning: boolean;
     navigation: boolean;
+    appEnabled: boolean;
+    pdfEnabled: boolean;
+    gpxEnabled: boolean;
 
 }
