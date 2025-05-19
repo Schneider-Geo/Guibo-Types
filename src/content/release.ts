@@ -3,7 +3,8 @@ import { AccountBasicinfo } from "./account_basicinfo";
 export interface Release {
     id: number;
     link: string;
-    downloadCode: number;
+    operatorDownloadCode: number;
+    sellerDownloadCode: number;
     startdate: Date;
     enddate: Date;
     arrivaldate?: Date;
