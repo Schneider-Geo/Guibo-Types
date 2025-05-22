@@ -25,5 +25,6 @@ export interface Release {
     appEnabled: boolean;
     pdfEnabled: boolean;
     gpxEnabled: boolean;
+    locked: boolean;
 
 }
