@@ -1,6 +1,6 @@
 import { Icon } from "./icon";
 
-export interface CrosscontentMetainfo {
+export interface CrossContentMetainfo {
    type: string;
    link: string;
    name: string;
