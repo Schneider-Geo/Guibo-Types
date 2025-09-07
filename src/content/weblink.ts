@@ -3,6 +3,7 @@ import { Context } from "./context";
 export interface WeblinkDTO {
 	
 	id?: number; 
+	l?: string;
 	title?: string;
 	titles?: Record<string, string>;
 	link?: string;
