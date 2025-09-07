@@ -1,5 +1,6 @@
 export interface WeblinkDTO {
 	
+	id: number; 
 	title?: string;
 	titles?: Record<string, string>;
 	link?: string;
