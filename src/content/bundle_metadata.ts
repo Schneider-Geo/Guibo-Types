@@ -1,4 +1,5 @@
 import { Bounds } from "./bounds";
+import { Marker } from "./marker";
 export interface BundleMetadata {
 	
 	id?: number;
@@ -22,4 +23,5 @@ export interface BundleMetadata {
 	logo?: string;
 	myOwn?: boolean;
 	languages?: string[];
+	markers?: Array<Marker>;
 }
