@@ -3,6 +3,7 @@ import { Icon } from "./icon";
 export interface CrossContentMetainfo {
    type: string;
    link: string;
+   customId?: string;
    name?: string;
    bundle?: string;
    bundleName?: string;
