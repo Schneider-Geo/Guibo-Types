@@ -9,8 +9,10 @@ export interface Category {
 	sorting?: number;
 	open?: boolean;
 	visible?: boolean;
+	appEnabled?: boolean;
+	pdfEnabled?: boolean;
 	geocontent? : Array<string>;
-  textcontent? : Array<string>;
+  	textcontent? : Array<string>;
 
 
  }
