@@ -16,5 +16,6 @@ export interface Text {
 	customId?: string;
 	appEnabled?: boolean;
 	pdfEnabled?: boolean;
+	separator: boolean;
 	context?: Context;
 }
