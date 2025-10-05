@@ -8,7 +8,6 @@ export interface Category {
 	names?: Record<string, string>;
 	sorting?: number;
 	open?: boolean;
-	visible?: boolean;
 	appEnabled?: boolean;
 	pdfEnabled?: boolean;
 	geocontent? : Array<string>;
