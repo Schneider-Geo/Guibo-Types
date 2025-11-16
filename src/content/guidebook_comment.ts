@@ -5,5 +5,6 @@ export interface GuidebookComment {
     type: string;
     user: string;
     text: string;
+    time: Date;
 
 } 
