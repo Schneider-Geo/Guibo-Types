@@ -30,6 +30,7 @@ export * from './content/validation';
 export * from './content/accommodation';
 export * from './content/accommodation_stageinfo';
 export * from './content/crosscontent_metainfo';
+export * from './content/guidebook_comment';
 export * from './content/marker';
 export * from './analytics/application_incident';
 export * from './analytics/log_context_detail';
