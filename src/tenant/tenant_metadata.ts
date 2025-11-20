@@ -8,8 +8,8 @@ export interface TenantMetadata {
     defaultLanguage?: string;
     units?: string;
     accountType?: string;
-    settings: Record<string, string>;
-    permissions: any;
+    settings?: Record<string, string>;
+    permissions?: any;
 	
 	
 
