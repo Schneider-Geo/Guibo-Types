@@ -12,6 +12,12 @@ export interface Category {
 	pdfEnabled?: boolean;
 	geocontent? : Array<string>;
   	textcontent? : Array<string>;
+	visibility?: {
+        app?: number;
+        pdf?: number;
+        tourmaps?: number;
+        gpx?: number;
+    };
 
 
  }
