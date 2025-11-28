@@ -9,4 +9,10 @@ export interface Context {
     group?: string;
     groupSorting?: number;
     category?: Category;
+    visibility?: {
+        app?: number;
+        pdf?: number;
+        tourmaps?: number;
+        gpx?: number;
+    };
 }

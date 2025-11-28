@@ -43,5 +43,11 @@ export interface Route {
     waypoints: Array<Waypoint>;
     supplements?: Array<Supplement>;
     segments?: Array<Segment>;
+    visibility?: {
+        app?: number;
+        pdf?: number;
+        tourmaps?: number;
+        gpx?: number;
+    };
     attributes: Record<string, string>
 }

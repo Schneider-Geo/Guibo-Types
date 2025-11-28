@@ -11,5 +11,9 @@ export interface WeblinkDTO {
 	bundle?: string;
 	space?: string;
 	context?: Context;
+	 visibility?: {
+        app?: number;
+        pdf?: number;
+    };
 
 }

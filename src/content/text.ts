@@ -18,4 +18,8 @@ export interface Text {
 	pdfEnabled?: boolean;
 	separator?: boolean;
 	context?: Context;
+	visibility?: {
+        app?: number;
+        pdf?: number;
+    };
 }
