@@ -32,6 +32,8 @@ export * from './content/crosscontent_metainfo';
 export * from './content/guidebook_comment';
 export * from './content/marker';
 export * from './content/tinygeodata';
+export * from './content/geogroup';
+
 export * from './analytics/application_incident';
 export * from './analytics/log_context_detail';
 export * from './analytics/operation_trace';
