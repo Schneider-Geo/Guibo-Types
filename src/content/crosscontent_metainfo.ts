@@ -11,4 +11,5 @@ export interface CrossContentMetainfo {
    icon?: Icon;
    names?: Record<string, string>;
    remark?: string;
+   
 }
