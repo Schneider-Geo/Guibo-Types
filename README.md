@@ -5,11 +5,11 @@
 ### Installing
 
  ```
- npm install @guibo/models
+ npm install @guibo_sdk/models
  ```
 ### General Usage
 Import the desired data structure in your file
 
 ```
-import { Category } from '@guibo/models'
+import { Category } from '@guibo_sdk/models'
 ```
