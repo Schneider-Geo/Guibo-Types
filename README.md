@@ -5,11 +5,11 @@
 ### Installing
 
  ```
- npm install guibo-types
+ npm install @guibo/models
  ```
 ### General Usage
 Import the desired data structure in your file
 
 ```
-import { Category } from 'guibo-types'
+import { Category } from '@guibo/models'
 ```

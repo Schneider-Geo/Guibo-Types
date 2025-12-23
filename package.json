@@ -1,5 +1,5 @@
 {
-  "name": "guibo-types",
+  "name": "@guibo/models",
   "version": "1.1.68",
   "description": "Typescript data structures for the GUIBO platform interfaces",
   "main": "./dist/index.js",
