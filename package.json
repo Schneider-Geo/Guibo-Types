@@ -1,6 +1,6 @@
 {
   "name": "@guibo_sdk/models",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "publishConfig": {
     "access": "public"
   },
@@ -9,7 +9,7 @@
   "types": "./dist/index.d.ts",
    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  	"build": "tsc"
+  	"build": "tsc && cp src/index.js dist/index.js"
   },
   "repository": {
     "type": "git",
