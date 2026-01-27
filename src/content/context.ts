@@ -15,4 +15,6 @@ export interface Context {
         tourmaps?: number;
         gpx?: number;
     };
+    guideOnly: boolean;
+
 }
