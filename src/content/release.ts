@@ -21,6 +21,7 @@ export interface Release {
     url: string;
     positioning: boolean;
     navigation: boolean;
+    tourguide: boolean;
     photocontest: boolean;
     appEnabled: boolean;
     pdfEnabled: boolean;
