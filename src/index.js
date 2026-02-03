@@ -1,4 +1,5 @@
 export * from './content/bounds';
+export * from './content/bundle';
 export * from './content/bundle_metadata';
 export * from './content/bundle_metainfo';
 export * from './content/category';
