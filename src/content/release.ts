@@ -22,6 +22,7 @@ export interface Release {
     positioning: boolean;
     navigation: boolean;
     tourguide: boolean;
+    travelgroup: boolean;
     photocontest: boolean;
     appEnabled: boolean;
     pdfEnabled: boolean;
