@@ -23,5 +23,6 @@ export interface BundleMetadata {
 	logo?: string;
 	myOwn?: boolean;
 	languages?: string[];
+	child: boolean;
 	markers?: Array<Marker>;
 }
