@@ -35,6 +35,7 @@ export * from './content/marker';
 export * from './content/tinygeodata';
 export * from './content/geogroup';
 export * from './content/coordinate';
+export * from './content/language';
 
 export * from './analytics/application_incident';
 export * from './analytics/log_context_detail';
