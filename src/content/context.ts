@@ -3,6 +3,7 @@ import { Category } from './category';
 export interface Context {
     reference: boolean;
     referenceAutomated: boolean;
+    releaseContent: boolean;
     referenceId?: string;
     bundle?: string;
     sorting?: number;
