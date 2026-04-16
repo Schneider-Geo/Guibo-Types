@@ -6,5 +6,11 @@ export interface GuidebookComment {
     user: string;
     text: string;
     time: Date;
+    sender?: string;
+    senderAccount?: string;
+    receiver?: string;
+    receiverAccount?: string;
+    receivedTime?: Date;
+
 
 } 
