@@ -7,13 +7,13 @@
   "description": "Typescript data structures for the GUIBO platform interfaces",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-   "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  	"build": "tsc && cp src/index.js dist/index.js"
+    "build": "tsc && cp src/index.js dist/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Schneider-Geo/Guibo-Types"
+    "url": "git+https://github.com/Schneider-Geo/Guibo-Types.git"
   },
   "keywords": [
     "typescript",
