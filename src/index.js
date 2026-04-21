@@ -38,6 +38,9 @@ export * from './content/geogroup';
 export * from './content/coordinate';
 export * from './content/language';
 export * from './content/product';
+export * from './content/productcollection';
+export * from './content/productcollection_constraint';
+export * from './content/productcollection_input';
 
 export * from './analytics/application_incident';
 export * from './analytics/log_context_detail';
