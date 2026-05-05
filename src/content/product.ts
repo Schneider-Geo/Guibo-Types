@@ -6,7 +6,7 @@ export interface Product {
   link?: string;
   customId?: string;
   account?: string;
-  name?: Record<string, string>;
+  names?: Record<string, string>;
   descriptions?: Record<string, string>;
   shortdescriptions?: Record<string, string>;
   images?: string[];
