@@ -4,4 +4,6 @@ export interface Waypoint {
     ele?: number;
     dfs?: number;
     seq?: number;
+    srf?: string;
+
 }
