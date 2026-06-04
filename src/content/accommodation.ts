@@ -10,5 +10,7 @@ export interface Accommodation {
     lng: number;
     images: string[];
     comment?: string;
+    checkInStage?: string;
+    checkOutStage?: string;
     stages: AccommodationStageinfo[];
 }
