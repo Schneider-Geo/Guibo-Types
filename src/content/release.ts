@@ -29,5 +29,6 @@ export interface Release {
     gpxEnabled: boolean;
     stageHotelTimeline: boolean;
     locked: boolean;
+    incidents: string[];
 
 }
