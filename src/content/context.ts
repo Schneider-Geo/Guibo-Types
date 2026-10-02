@@ -17,5 +17,6 @@ export interface Context {
         gpx?: number;
     };
     guideOnly: boolean;
+    highlight: boolean;
 
 }
