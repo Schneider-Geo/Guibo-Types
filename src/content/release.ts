@@ -24,6 +24,7 @@ export interface Release {
     tourguide: boolean;
     travelgroup: boolean;
     photocontest: boolean;
+    digitalPostcard: boolean;
     appEnabled: boolean;
     pdfEnabled: boolean;
     gpxEnabled: boolean;
