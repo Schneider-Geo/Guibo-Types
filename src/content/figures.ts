@@ -5,6 +5,7 @@ export interface Figures {
     down?: number;
     highest?: number;
     lowest?: number;
+    time?: string;
     maxElevation?: number;
     minElevation?: number;
     elevationPoints?: Array<Elevation>;
