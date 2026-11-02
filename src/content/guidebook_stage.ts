@@ -16,6 +16,9 @@ export interface GuidebookStageDTO {
     accommodation?: ServiceItemOutputDTO;
     routes?: RouteOutputItemDTO[];
     pois?: PoiOutputItemDTO[];
+    agendaPois?: PoiOutputItemDTO[];
+    niceToKnowPois?: PoiOutputItemDTO[];
+    markers?: PoiOutputItemDTO[];
     transfers?: RouteOutputItemDTO[];
     activities?: ServiceItemOutputDTO[];
     texts?: TextOutputItemDTO[];

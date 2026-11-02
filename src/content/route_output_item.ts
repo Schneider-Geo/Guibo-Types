@@ -1,5 +1,8 @@
+import { Context } from './context';
 import { Figures } from './figures';
+import { Icon } from './icon';
 import { PoiOutputItemDTO } from './poi_output_item';
+import { Segment } from './segment';
 import { Waypoint } from './waypoint';
 
 /** Route kind in guidebook output (`RouteOutputItemDTO.RouteType`). */
@@ -35,4 +38,13 @@ export interface RouteOutputItemDTO {
     settlements?: PoiOutputItemDTO[];
     waypoints?: RouteOutputWaypoint[];
     accommodationRadiusInfo?: AccommodationRadiusInfoDTO;
+    context?: Context;
+    names?: Record<string, string>;
+    descriptions?: Record<string, string>;
+    icon?: Icon;
+    bundle?: string;
+    remark?: string;
+    lat?: number;
+    lon?: number;
+    segments?: Segment[];
 }
