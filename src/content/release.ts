@@ -1,5 +1,9 @@
 import { AccountBasicinfo } from "./account_basicinfo";
 
+// Type of the guidebook a release is based on (ReleaseOutputDTO.GuidebookType)
+// MASTER: guidebook template, CUSTOMIZED: customized copy of a template, ONDEMAND: guidebook created on demand
+export type ReleaseGuidebookType = 'MASTER' | 'CUSTOMIZED' | 'ONDEMAND';
+
 export interface Release {
     id: number;
     link: string;
@@ -31,5 +35,6 @@ export interface Release {
     stageHotelTimeline: boolean;
     locked: boolean;
     incidents: string[];
+    guidebookType?: ReleaseGuidebookType | null; // null if unknown
 
 }
