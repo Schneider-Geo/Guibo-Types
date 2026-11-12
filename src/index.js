@@ -27,6 +27,8 @@ export * from './content/release_asset';
 export * from './content/release_asset_list';
 export * from './content/release_message'
 export * from './content/release_accommodations';
+export * from './content/release_stage';
+export * from './content/ondemand_release';
 export * from './content/account_basicinfo';
 export * from './content/validation';
 export * from './content/accommodation';
