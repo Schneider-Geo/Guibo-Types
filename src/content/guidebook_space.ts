@@ -14,5 +14,4 @@ export interface GuidebookSpaceDTO {
     pois?: PoiOutputItemDTO[];
     markers?: PoiOutputItemDTO[];
     categories?: Category[];
-    abandoned?: GuidebookSpaceDTO;
 }

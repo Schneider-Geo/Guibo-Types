@@ -37,6 +37,7 @@ export * from './content/guidebook_comment';
 export * from './content/guidebook_output';
 export * from './content/guidebook_stage';
 export * from './content/guidebook_space';
+export * from './content/unplaced_content';
 export * from './content/text_output_item';
 export * from './content/poi_output_item';
 export * from './content/route_output_item';
