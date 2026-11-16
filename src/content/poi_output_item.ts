@@ -1,4 +1,4 @@
-import { Context } from './context';
+import { ContextOutput } from './context_output';
 import { Icon } from './icon';
 
 /** POI category in guidebook output (`PoiOutputItemDTO.PoiType`). */
@@ -39,11 +39,10 @@ export interface PoiOutputItemDTO {
     distanceFromStart?: number;
     highlighted?: boolean;
     alongRoutes?: PoiAlongRouteDTO[];
-    context?: Context;
+    context?: ContextOutput;
     names?: Record<string, string>;
     descriptions?: Record<string, string>;
     icon?: Icon;
-    bundle?: string;
     remark?: string;
     visitingInfo?: string;
 }

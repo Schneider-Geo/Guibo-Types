@@ -1,4 +1,4 @@
-import { Context } from './context';
+import { ContextOutput } from './context_output';
 
 /** Localized weblink as returned by guidebook output (`WeblinkOutputItemDTO`). */
 export interface WeblinkOutputItemDTO {
@@ -7,6 +7,5 @@ export interface WeblinkOutputItemDTO {
     names?: Record<string, string>;
     url?: string;
     urls?: Record<string, string>;
-    bundle?: string;
-    context?: Context;
+    context?: ContextOutput;
 }

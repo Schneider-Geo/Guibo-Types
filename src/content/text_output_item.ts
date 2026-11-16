@@ -1,4 +1,4 @@
-import { Context } from './context';
+import { ContextOutput } from './context_output';
 
 /** Localized text page as returned by guidebook output (`TextOutputItemDTO`). */
 export interface TextOutputItemDTO {
@@ -6,10 +6,9 @@ export interface TextOutputItemDTO {
     link?: string;
     name?: string;
     description?: string;
-    context?: Context;
+    context?: ContextOutput;
     names?: Record<string, string>;
     descriptions?: Record<string, string>;
-    bundle?: string;
     remark?: string;
     separator?: boolean;
 }

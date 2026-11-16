@@ -1,4 +1,4 @@
-import { Context } from './context';
+import { ContextOutput } from './context_output';
 import { Figures } from './figures';
 import { Icon } from './icon';
 import { PoiOutputItemDTO } from './poi_output_item';
@@ -38,11 +38,10 @@ export interface RouteOutputItemDTO {
     settlements?: PoiOutputItemDTO[];
     waypoints?: RouteOutputWaypoint[];
     accommodationRadiusInfo?: AccommodationRadiusInfoDTO;
-    context?: Context;
+    context?: ContextOutput;
     names?: Record<string, string>;
     descriptions?: Record<string, string>;
     icon?: Icon;
-    bundle?: string;
     remark?: string;
     lat?: number;
     lon?: number;
