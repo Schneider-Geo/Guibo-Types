@@ -1,3 +1,4 @@
+import { ContextBase } from './context_base';
 import { PoiOutputItemDTO } from './poi_output_item';
 import { RouteOutputItemDTO } from './route_output_item';
 import { ServiceItemOutputDTO } from './service_item_output';
@@ -10,7 +11,11 @@ import { TextOutputItemDTO } from './text_output_item';
 export interface GuidebookStageDTO {
     number: number;
     link?: string;
-    title?: string;
+    customId?: string;
+    /** Name in the requested language (only if a language was requested). */
+    name?: string;
+    /** Names per language (only if no language was requested). */
+    names?: { [lang: string]: string };
     date?: string;
     destination?: PoiOutputItemDTO;
     accommodation?: ServiceItemOutputDTO;
@@ -22,4 +27,5 @@ export interface GuidebookStageDTO {
     transfers?: RouteOutputItemDTO[];
     activities?: ServiceItemOutputDTO[];
     texts?: TextOutputItemDTO[];
+    context?: ContextBase;
 }

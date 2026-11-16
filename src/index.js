@@ -5,6 +5,7 @@ export * from './content/bundle_metainfo';
 export * from './content/channel';
 export * from './content/category';
 export * from './content/context';
+export * from './content/context_base';
 export * from './content/context_output';
 export * from './content/elevation';
 export * from './content/figures';
