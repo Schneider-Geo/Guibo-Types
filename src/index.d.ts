@@ -6,6 +6,7 @@ export * from './content/channel';
 export * from './content/category';
 export * from './content/context';
 export * from './content/context_base';
+export * from './content/destination';
 export * from './content/context_output';
 export * from './content/elevation';
 export * from './content/figures';

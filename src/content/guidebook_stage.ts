@@ -1,4 +1,5 @@
 import { ContextBase } from './context_base';
+import { DestinationDTO } from './destination';
 import { PoiOutputItemDTO } from './poi_output_item';
 import { RouteOutputItemDTO } from './route_output_item';
 import { ServiceItemOutputDTO } from './service_item_output';
@@ -17,13 +18,12 @@ export interface GuidebookStageDTO {
     /** Names per language (only if no language was requested). */
     names?: { [lang: string]: string };
     date?: string;
-    destination?: PoiOutputItemDTO;
+    /** Destinations where this stage ends (the next stage starts there). */
+    destinations?: DestinationDTO[];
     accommodation?: ServiceItemOutputDTO;
     routes?: RouteOutputItemDTO[];
-    pois?: PoiOutputItemDTO[];
     agendaPois?: PoiOutputItemDTO[];
     niceToKnowPois?: PoiOutputItemDTO[];
-    markers?: PoiOutputItemDTO[];
     transfers?: RouteOutputItemDTO[];
     activities?: ServiceItemOutputDTO[];
     texts?: TextOutputItemDTO[];
