@@ -67,4 +67,3 @@ export * from  './tenant/portal_notification';
 export * from './tenant/user';
 export * from './tenant/user_role';
 export * from './generic/page'
-
