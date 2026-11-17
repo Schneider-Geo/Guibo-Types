@@ -21,6 +21,8 @@ export interface BundleMetadata {
 	map?: string;
 	settings: Record<string, string>;
 	logo?: string;
+	/** Last time the guidebook was opened in the account, `yyyy-MM-dd HH:mm` (only in guidebook lists). */
+	lastOpened?: string;
 	myOwn?: boolean;
 	languages?: string[];
 	child: boolean;
